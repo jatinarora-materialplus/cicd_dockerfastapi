@@ -30,6 +30,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install fastapi
         pip install pytest
+        pip install uvicorn
+        pip install httpx
 
     - name: Run tests
       run: |
